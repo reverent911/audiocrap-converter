@@ -1,4 +1,9 @@
 audiocrap-converter
 ===================
 
-Audio Converter Dot Net
+Audio Converter written in .NET 2.0 
+
+features
+========
+
+
