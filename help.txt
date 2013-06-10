@@ -1,0 +1,23 @@
+
+EAQUAL - Evaluation of Audio Quality
+Version:	0.1.3alpha
+Author: 	Alexander Lerch, zplane.development
+_______________________________________________________
+
+Usage:
+EAQUAL [-options] -fref reference_file -ftest test_file
+
+
+Options:
+-bits	 number of bits per sample (default: -bits 16)
+-blockout	 get intermediate results for blocks: -blockout value file_path (valid values are: All, ODG, DI, BWRef, BWTest, NMR, ADB, EHS, ModDiff1, ModDiff2, NoiseLoud, DetProb, RDF, NMRSpec, ModDiffSpec, DetProbSpec, NLSpec)-ch	 number of channels (default: -ch 2)
+-forget	 use forgetting factor (only MFPD)
+-fref	 input path for reference file
+-ftest	 input path for test file
+-h	 print this help
+-offset	 shift the test buffer for offset samples (if <0: shift reference buffer for offset samples
+-silent	 path for ASCII result file, no output
+-srate	 sampling rate of input files (default: -srate 48000)
+-spl	 monitoring level in dBSPL(default: -spl 92)
+-type	 analysis type: b= BASIC, a=ADVANCED (default: -type b, a not allowed in the moment)
+-ver	 print program version
