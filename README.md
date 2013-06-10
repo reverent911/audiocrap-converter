@@ -1,4 +1,4 @@
-audiocrap-converter
+Audiocrap-converter
 ===================
 
 Audio Converter written in .NET 2.0 for Win32/64 systems 
